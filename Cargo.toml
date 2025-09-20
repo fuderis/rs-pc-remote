@@ -1,0 +1,17 @@
+[package]
+name = "pc-remote"
+description = "This library provides cross-platform control over computer input devices"
+keywords = ["pc", "controller", "keyboard", "mouse", "media"]
+categories = ["development-tools"]
+version = "0.1.0"
+license = "MIT"
+authors = ["Bulat Sh. <t.me/fuderis>"]
+repository = "https://github.com/fuderis/rs-pc-remote"
+readme = "README.md"
+edition = "2024"
+
+[dependencies]
+macron = { version = "0.1.9", features = ["path", "derive", "string"] }
+serde = { version = "1.0.225", features = ["derive"] }
+enigo = "0.6.1"
+csv = "1.3.1"
