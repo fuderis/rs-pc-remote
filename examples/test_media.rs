@@ -1,4 +1,4 @@
-use pc_remote::{ Result, Media };
+use pc_remote::{ Result, media::Media };
 use macron::path;
 
 fn main() -> Result<()> {

@@ -1,4 +1,4 @@
-use pc_remote::{ Result, Keyboard, Key };
+use pc_remote::{ Result, input::{ Keyboard, Key } };
 
 fn main() -> Result<()> {
     let mut keyboard = Keyboard::new()?;
