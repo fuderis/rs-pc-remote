@@ -1,7 +1,7 @@
 [package]
 name = "pc-remote"
 description = "This library provides cross-platform control over computer input devices"
-keywords = ["pc control", "keyboard", "mouse", "media", "audio"]
+keywords = ["pc-control", "keyboard", "mouse", "media", "audio"]
 categories = ["development-tools"]
 version = "0.1.0"
 license = "MIT"
